@@ -1,0 +1,130 @@
+aid: spellbook
+name: Spellbook
+description: >-
+  Spellbook (spellbook.com) is a generative AI platform for commercial
+  lawyers that lives inside Microsoft Word as an add-in. Its product suite
+  includes Review (redlining and risk identification), Draft (clause and
+  document generation from precedents), Ask (cited answers to contract
+  questions), Market (benchmarking contracts against market data), and
+  Associate (multi-document workflow agents). Spellbook is used by
+  4,500+ in-house teams and law firms across 80+ countries and has
+  processed over 10 million contracts. The product is sold as per-seat
+  SaaS via direct sales and a 7-day free trial; Spellbook does not
+  currently publish a public developer API.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Artificial Intelligence
+  - LegalTech
+  - Contracts
+  - Contract Drafting
+  - Contract Review
+  - Microsoft Word
+  - Redlining
+  - Playbooks
+  - In-House Legal
+  - Law Firms
+url: https://raw.githubusercontent.com/api-evangelist/spellbook/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: spellbook:spellbook-suite
+    name: Spellbook Suite
+    description: >-
+      Spellbook is delivered primarily as a Microsoft Word add-in and a
+      multi-document Associate agent rather than a public REST API. This
+      entry documents the Spellbook product surface for discoverability;
+      programmatic integrations beyond the Word add-in are arranged
+      through direct customer engagements.
+    humanURL: https://spellbook.com/
+    baseURL: https://spellbook.com
+    tags:
+      - Contracts
+      - Word Add-In
+      - Drafting
+      - Review
+      - Benchmarking
+    properties:
+      - type: Documentation
+        url: https://help.spellbook.com/
+      - type: SignUp
+        url: https://app.spellbook.com/signup
+      - type: GettingStarted
+        url: https://spellbook.com/get-started
+      - type: Pricing
+        url: https://spellbook.com/pricing
+    features:
+      - name: Review
+        description: >-
+          Redline contracts and identify risk against your firm's
+          playbooks.
+      - name: Draft
+        description: >-
+          Generate clauses and full documents from scratch or saved
+          precedents.
+      - name: Ask
+        description: >-
+          Answer contract questions with citations into the underlying
+          documents.
+      - name: Market
+        description: >-
+          Compare contracts to market benchmarks and industry norms.
+      - name: Associate
+        description: >-
+          Run multi-document workflows that span entire deals and matters.
+      - name: Microsoft Word Add-In
+        description: >-
+          Use Spellbook directly inside Word, where lawyers already work.
+      - name: Playbooks
+        description: >-
+          Encode firm-specific positions and preferred language for
+          consistent review.
+      - name: Zero Data Retention
+        description: >-
+          Configure ZDR agreements for sensitive client matters.
+    useCases:
+      - name: SaaS and Commercial Contracts
+        description: >-
+          Accelerate review and negotiation of MSAs, DPAs, and NDAs.
+      - name: M&A and Transactional Work
+        description: >-
+          Draft and benchmark deal documents at scale.
+      - name: In-House Legal Productivity
+        description: >-
+          Cut review time for corporate legal teams handling vendor
+          paper.
+      - name: Law Firm Associate Workflows
+        description: >-
+          Augment associates on first-pass drafting and review.
+      - name: Compliance Reviews
+        description: >-
+          Enforce playbooks for HIPAA, GDPR, and EU AI Act language.
+    integrations:
+      - name: Microsoft Word
+      - name: Microsoft 365
+    authentication:
+      - type: User Login
+        description: >-
+          Access is via authenticated user accounts to the Spellbook Word
+          add-in and web app; no public API key program is published.
+common:
+  - type: Website
+    url: https://spellbook.com
+  - type: Blog
+    url: https://spellbook.com/blog
+  - type: Pricing
+    url: https://spellbook.com/pricing
+  - type: TermsOfService
+    url: https://spellbook.com/terms
+  - type: PrivacyPolicy
+    url: https://spellbook.com/privacy
+  - type: X
+    url: https://x.com/spellbooklegal
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/spellbook-legal
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
