@@ -125,6 +125,8 @@ common:
     url: https://x.com/spellbooklegal
   - type: LinkedIn
     url: https://www.linkedin.com/company/spellbook-legal
+  - type: LLMsTxt
+    url: https://spellbook.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
