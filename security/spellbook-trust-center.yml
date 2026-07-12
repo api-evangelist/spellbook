@@ -1,0 +1,14 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://trust.spellbook.com/
+url: https://trust.spellbook.com/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://trust.spellbook.com/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center

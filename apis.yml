@@ -111,6 +111,10 @@ apis:
           Access is via authenticated user accounts to the Spellbook Word
           add-in and web app; no public API key program is published.
 common:
+  - type: TrustCenter
+    url: security/spellbook-trust-center.yml
+  - type: DomainSecurity
+    url: security/spellbook-domain-security.yml
   - type: Website
     url: https://spellbook.com
   - type: Blog
