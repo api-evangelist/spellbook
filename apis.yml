@@ -76,7 +76,6 @@ apis:
       programmatic integrations beyond the Word add-in are arranged
       through direct customer engagements.
     humanURL: https://spellbook.com/
-    baseURL: https://spellbook.com
     tags:
       - Contracts
       - Word Add-In
