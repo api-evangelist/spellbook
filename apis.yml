@@ -146,6 +146,12 @@ apis:
           Access is via authenticated user accounts to the Spellbook Word
           add-in and web app; no public API key program is published.
 common:
+  - type: Plans
+    url: plans/spellbook-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/spellbook-rate-limits.yml
+  - type: FinOps
+    url: finops/spellbook-finops.yml
   - type: TrustCenter
     url: security/spellbook-trust-center.yml
   - type: DomainSecurity
